@@ -79,7 +79,7 @@ imageBtn.addEventListener("click", () => {
 
 async function generateResponse(aichatBox) {
     const text = aichatBox.querySelector(".ai-chatarea");
-    const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyC1-DiNyUekf6i1Jz_3T3V3199YPKtmWzY"; // Replace with actual API key
+    const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:"; 
 
     try {
         const response = await fetch(apiUrl, {
